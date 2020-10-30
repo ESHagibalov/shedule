@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bottom_navigation_style">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/outline_home_white_18dp"
+        android:title="@string/home"
+        android:textColor="@color/white"/>
+
+    <item
+        android:id="@+id/navigation_classes"
+        android:icon="@drawable/outline_calendar_today_white_18dp"
+        android:title="@string/classes"
+        android:textColor="@color/white"/>
+
+    <item
+        android:id="@+id/navigation_notes"
+        android:icon="@drawable/outline_list_white_18dp"
+        android:title="@string/notes"
+        android:textColor="@color/white"/>
+
+    <item
+        android:id="@+id/navigation_marks"
+        android:icon="@drawable/outline_grade_white_18dp"
+        android:title="@string/marks"
+        android:textColor="@color/white"/>
+</menu>
