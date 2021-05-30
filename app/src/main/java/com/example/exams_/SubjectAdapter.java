@@ -55,7 +55,8 @@ public class SubjectAdapter extends BaseAdapter {
 
         ((ImageView) view.findViewById(R.id.dot)).setImageResource(s.getDot_icon());
         ((TextView) view.findViewById(R.id.subject_title)).setText(s.getTitle_param());
-        ((TextView) view.findViewById(R.id.time_one)).setText(String.format("%d:%s - %d:%d", s.getTime_h_start(), s.getTime_m_start(), s.getTime_h_end(), s.getTime_m_end()));
+        ((TextView) view.findViewById(R.id.time_one)).setText(String.format("%d:%s - %d:%d", s.getTime_h_start(), s.getTime_m_start(), s.getTime_h_end(),
+                                                                            s.getTime_m_end()));
         ((ImageView) view.findViewById(R.id.subject_icon)).setImageResource(s.getSubject_icon_param());
         ((TextView) view.findViewById(R.id.Teacher)).setText(s.getTeacher_param());
 
